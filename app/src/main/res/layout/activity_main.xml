@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_alignParentTop="true" />
+
+    <ru.samsung.itschool.game18.MyDraw
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view"
+        android:layout_below="@+id/seekBar"
+        />
+</RelativeLayout>
